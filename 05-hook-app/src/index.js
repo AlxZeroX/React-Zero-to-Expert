@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { HookApp } from './HookApp';
 
 
-ReactDOM.render(
-    <App />,
-  document.getElementById('root')
+ReactDOM.render( <
+    HookApp / > ,
+    document.getElementById('root')
 );
-
