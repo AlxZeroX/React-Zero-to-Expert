@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './effects.css'
 
-export const SiempleForm = () => {
+export const SimpleForm = () => {
 
     const [formState, setFormState] = useState({
         name: '',
