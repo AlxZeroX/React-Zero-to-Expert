@@ -5,10 +5,10 @@ const initialState = [{
     done: false
 }];
 
-const todoReducer = ( state = initialState, action ) => {
-    
-    if ( action?.type === 'agregar' ) {
-        return [ ...state, action.payload ];
+const todoReducer = (state = initialState, action) => {
+
+    if (action?.type === 'agregar') {
+        return [...state, action.payload];
     }
 
     return state;
@@ -30,7 +30,7 @@ const agregarTodoAction = {
 }
 
 
-todos = todoReducer( todos, agregarTodoAction );
+todos = todoReducer(todos, agregarTodoAction);
 
 
 
