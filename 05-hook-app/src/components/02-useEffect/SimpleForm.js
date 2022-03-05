@@ -18,11 +18,11 @@ export const SimpleForm = () => {
     }, [] );
 
     useEffect(() => {
-        console.log('FormState cambio')
+        //console.log('FormState cambio')
     }, [ formState ] );
 
     useEffect(() => {
-        console.log('email cambio')
+        //console.log('email cambio')
     }, [ email ] );
 
     const handleInputChange = ({ target }) => {
