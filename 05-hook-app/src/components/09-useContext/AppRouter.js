@@ -15,9 +15,7 @@ export const AppRouter = () => {
     return (
         <Router>
             <div>
-
                 <NavBar />
-
                 <div className="container">
                     <Routes>
                         <Route path="/" element={<HomeScreen />} />
