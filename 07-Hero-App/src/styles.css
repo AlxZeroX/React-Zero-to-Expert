@@ -6,12 +6,16 @@ h1{
     color: yellow;
 }
 
-h5{
-    color: #FD5B41;
-}
-
 h3{
     color: #5193E1;
+}
+
+h4{
+    color: red;
+}
+
+h5{
+    color: #FD5B41;
 }
 
 p{
