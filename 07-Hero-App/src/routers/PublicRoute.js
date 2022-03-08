@@ -13,3 +13,36 @@ export const PublicRoute = ({ children }) => {
         ? <Navigate to="/marvel" />
         : children
 }
+
+// import React from 'react';
+// import PropTypes from 'prop-types';
+
+// import { Route} from 'react-router-dom';
+// import { MarvelScreen } from '../components/marvel/MarvelScreen';
+
+
+// export const PublicRoute = ({
+//     isAuthenticated,
+//     component: Component,
+//     ...rest
+// }) => {
+
+//     return (
+//         <Route { ...rest }
+//             component={ (props) => (
+//                 ( !isAuthenticated )
+//                     ? ( <Component { ...props } /> )
+//                     : ( <Route path="/" element={<MarvelScreen />} />)
+//             )}
+        
+//         />
+//     )
+// }
+
+// PublicRoute.propTypes = {
+//     isAuthenticated: PropTypes.bool.isRequired,
+//     component: PropTypes.func.isRequired
+// }
+
+
+// /* <Redirect to="/" /> */
