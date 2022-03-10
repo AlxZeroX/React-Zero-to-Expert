@@ -15,8 +15,8 @@ export const RegisterScreen = () => {
     const [ formValues, handleInputChange ] = useForm({
         name: 'Alex',
         email: 'alex@gmail.com',
-        password: '123',
-        password2: '123',
+        password: '123456',
+        password2: '123456',
     });
 
     const { name ,email ,password ,password2 } = formValues;
@@ -51,7 +51,10 @@ export const RegisterScreen = () => {
         <>
             <h3 className="auth__title">Register</h3>
 
-            <form onSubmit={ handleRegister }>
+            <form 
+                onSubmit={ handleRegister }
+                className="animate__animated animate__fadeIn animate__faster"
+            >
 
                 {
                     msgError &&
