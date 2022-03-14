@@ -1,4 +1,4 @@
 # React-Zero-to-Expert
 
-##Proyectos desplegados:
+## Proyectos desplegados:
 https://alxzerox.github.io/React-GifExpertApp/
