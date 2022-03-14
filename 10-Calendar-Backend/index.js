@@ -20,7 +20,6 @@ app.use( express.json() );
 
 // Rutas
 app.use('/api/auth', require('./routes/auth') );
-// TODO: CRUD: Eventos
 
 // Escuchar peticiones
 app.listen( process.env.PORT, () => {
