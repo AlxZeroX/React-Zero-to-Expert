@@ -12,7 +12,7 @@ const initialState = {
         notes: 'Comprar el pastel',
         user: {
             _id: '123',
-            name: 'Critian Martinez'
+            name: 'Cristian Martinez'
         }
     }],
     activeEvent: null
