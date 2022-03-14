@@ -80,3 +80,5 @@ html, body {
     position: fixed;
     left: 25px;
 }
+
+.fab { z-index: 10; }
