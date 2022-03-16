@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import { BarLoader } from 'react-spinner-animated';
 
 import { useDispatch, useSelector } from 'react-redux';
 import { Route,  BrowserRouter as Router, Routes } from 'react-router-dom';
@@ -18,7 +19,7 @@ export const AppRouter = () => {
   }, [dispatch])
  
   if( checking ){
-    return ( <h5> Espere... </h5> )
+    return ( <BarLoader text="Loading..." gColor={"#343A40"} center={false}/>  )
   }
   return (
     <Router>

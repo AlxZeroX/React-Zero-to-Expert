@@ -7499,6 +7499,11 @@
   optionalDependencies:
     "fsevents" "^2.3.2"
 
+"react-spinner-animated@^3.0.9":
+  "integrity" "sha512-NCagbQoKzqWQLy07caOSWXH25WeQI7eVLcTAXGfUpBeUX4IbTuSe7+VYP1WNzCkH1VVjwsFyJW70MRB0OJBIZw=="
+  "resolved" "https://registry.npmjs.org/react-spinner-animated/-/react-spinner-animated-3.0.9.tgz"
+  "version" "3.0.9"
+
 "react-time-picker@^4.5.0":
   "integrity" "sha512-06ViW8t3hGmkrwGvUtaoZ5ud/uSlQwMexn86eL3uoTV6FnIeRhKq0H944L4bA1ne4xIndO4Fro5tGUMmWUA9gw=="
   "resolved" "https://registry.npmjs.org/react-time-picker/-/react-time-picker-4.5.0.tgz"
@@ -7514,7 +7519,7 @@
     "react-fit" "^1.4.0"
     "update-input-width" "^1.2.2"
 
-"react@*", "react@^0.14.0 || ^15.0.0 || ^16 || ^17", "react@^15.5.0 || ^16.0.0 || ^17.0.0 || ^18.0.0", "react@^16.3.0 || ^17.0.0 || ^18.0.0", "react@^16.6.1 || ^17", "react@^16.8.3 || ^17", "react@^17.0.2", "react@>= 16", "react@>=15.0.0", "react@>=16.3.0", "react@>=16.8", "react@>=16.8.0", "react@17.0.2":
+"react@*", "react@^0.14.0 || ^15.0.0 || ^16 || ^17", "react@^15.5.0 || ^16.0.0 || ^17.0.0 || ^18.0.0", "react@^16.3.0 || ^17.0.0 || ^18.0.0", "react@^16.6.1 || ^17", "react@^16.8.3 || ^17", "react@^17.0.2", "react@>= 16", "react@>=15.0.0", "react@>=16", "react@>=16.3.0", "react@>=16.8", "react@>=16.8.0", "react@17.0.2":
   "integrity" "sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA=="
   "resolved" "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
   "version" "17.0.2"
