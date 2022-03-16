@@ -14,7 +14,7 @@
     border-radius: 5px;
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
     padding: 5%;
-    background: #0062cc;
+    background: #5C2E91;
 }
 .login-form-2 h3{
     text-align: center;
@@ -33,7 +33,7 @@
 }
 .login-form-1 .btnSubmit{
     color: #fff;
-    background-color: #0062cc;
+    background-color: #881798;
 }
 .login-form-2 .btnSubmit{
     background-color: #fff;
@@ -48,4 +48,8 @@
     color: #0062cc;
     font-weight: 600;
     text-decoration: none;
+}
+
+.body {
+    background-color: #212121;
 }
