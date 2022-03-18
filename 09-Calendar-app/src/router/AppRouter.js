@@ -19,7 +19,7 @@ export const AppRouter = () => {
   }, [dispatch])
  
   if( checking ){
-    return ( <BarLoader text="Loading..." gColor={"#343A40"} center={false}/>  )
+    return ( <BarLoader text="Loading..." bgColor={"#343A40"} center={false}/>  )
   }
   return (
     <Router>
